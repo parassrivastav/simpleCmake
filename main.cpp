@@ -4,12 +4,13 @@
 #include<funcs.h>
 
 using namespace std;
-int main(){
+
+int main() {
   mule m;
   horse h;
-  cout<<"\nMain is running.";
+  cout << "\nMain is running.";
   dumbFunc();
   m.displayMule();
   h.displayHorse();
-  cout<<endl;
+  cout << endl;
 }
