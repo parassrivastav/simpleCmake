@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION "3.0")
 
 include_directories("${CMAKE_SOURCE_DIR}/include")
 
-set (APP_SOURCE_FILES ${CMAKE_SOURCE_DIR}/main.cpp 
+set (APP_SOURCE_FILES ${CMAKE_SOURCE_DIR}/main.cpp
 ${CMAKE_SOURCE_DIR}/src/funcs.cpp ${CMAKE_SOURCE_DIR}/src/horse.cpp
 ${CMAKE_SOURCE_DIR}/src/mule.cpp)
 

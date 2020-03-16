@@ -8,5 +8,4 @@ class mule{
     void displayMule(){
       std::cout<<"I am a mule";
     }
-}
-;
+};
