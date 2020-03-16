@@ -3,5 +3,5 @@
 using namespace std;
 
     void mule::displayMule(){
-      std::cout<<"I am a mule";
+      std::cout<<"\nI am a mule.";
     }

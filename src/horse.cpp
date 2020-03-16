@@ -3,5 +3,5 @@
 using namespace std;
 
 void horse::displayHorse(){
-      std::cout<<"I am a horse";
+      std::cout<<"\nI am a horse.";
 }

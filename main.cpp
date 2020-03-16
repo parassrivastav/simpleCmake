@@ -1,7 +1,15 @@
 #include<iostream>
 #include<mule.h>
-mule m;
+#include<horse.h>
+#include<funcs.h>
+
 using namespace std;
 int main(){
-  cout<<"Maine is running";
+  mule m;
+  horse h;
+  cout<<"\nMain is running.";
+  dumbFunc();
+  m.displayMule();
+  h.displayHorse();
+  cout<<endl;
 }
