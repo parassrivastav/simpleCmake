@@ -1,11 +1,7 @@
 #include<iostream>
+#include<mule.h>
 using namespace std;
-class mule{
-  int legs;
-  int color;
 
-  public:
-    void displayMule(){
+    void mule::displayMule(){
       std::cout<<"I am a mule";
     }
-};

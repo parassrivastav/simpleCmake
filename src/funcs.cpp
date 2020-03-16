@@ -1,4 +1,5 @@
 #include<iostream>
+#include<funcs.h>
 using namespace std;
 int dumbFunc(void){
   std::cout<<"I am dumb stupid function";
