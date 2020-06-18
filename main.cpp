@@ -1,7 +1,7 @@
 #include<iostream>
-#include<mule.h>
-#include<horse.h>
-#include<funcs.h>
+#include<animals/mule.h>
+#include<animals/horse.h>
+#include<animals/funcs.h>
 #include<reactphysics3d.h>
 
 using namespace std;

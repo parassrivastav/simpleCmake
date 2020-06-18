@@ -1,5 +1,5 @@
 #include<iostream>
-#include<mule.h>
+#include<animals/mule.h>
 
 using namespace std;
 

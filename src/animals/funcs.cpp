@@ -1,5 +1,5 @@
 #include<iostream>
-#include<funcs.h>
+#include<animals/funcs.h>
 
 using namespace std;
 

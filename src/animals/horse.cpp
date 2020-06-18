@@ -1,5 +1,5 @@
 #include<iostream>
-#include<horse.h>
+#include<animals/horse.h>
 
 using namespace std;
 
