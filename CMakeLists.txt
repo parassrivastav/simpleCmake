@@ -15,5 +15,4 @@ project(helloworld)
 
 add_executable(helloworld ${APP_SOURCE_FILES})
 
-TARGET_LINK_LIBRARIES (helloworld libreactphysics3d.a)
-
+TARGET_LINK_LIBRARIES (helloworld ${CMAKE_SOURCE_DIR}/libreactphysics3d.a)
