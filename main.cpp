@@ -2,7 +2,7 @@
 #include<animals/mule.h>
 #include<animals/horse.h>
 #include<animals/funcs.h>
-#include<reactphysics3d.h>
+#include<reactphysics3d/reactphysics3d.h>
 
 using namespace std;
 
