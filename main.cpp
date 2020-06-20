@@ -9,6 +9,35 @@
 using namespace reactphysics3d;
 using namespace std;
 
+
+/************************************SARAB***************************************************/
+ 
+  #include <osgDB/ReadFile>
+#include <osgUtil/Optimizer>
+#include <osg/CoordinateSystemNode>
+
+#include <osg/Switch>
+#include <osg/Types>
+#include <osgText/Text>
+
+#include <osgViewer/Viewer>
+#include <osgViewer/ViewerEventHandlers>
+
+#include <osgGA/TrackballManipulator>
+#include <osgGA/FlightManipulator>
+#include <osgGA/DriveManipulator>
+#include <osgGA/KeySwitchMatrixManipulator>
+#include <osgGA/StateSetManipulator>
+#include <osgGA/AnimationPathManipulator>
+#include <osgGA/TerrainManipulator>
+#include <osgGA/SphericalManipulator>
+
+#include <osgGA/Device>
+
+
+/*****************************************SARAB******************************************************/
+
+
 // Main function
 int main(int argc, char** argv) {
 
@@ -16,6 +45,24 @@ int main(int argc, char** argv) {
     // This is a factory module that you can use to create physics
     // world and other objects. It is also responsible for
     // logging and memory management
+    
+
+    /*************************************************SARAB***********************************************/
+
+    osg::ArgumentParser arguments(&argc,argv);
+    arguments.getApplicationUsage()->setApplicationName(arguments.getApplicationName());
+    arguments.getApplicationUsage()->setDescription(arguments.getApplicationName()+" is the standard OpenSceneGraph example which loads and visualises 3d models.");
+    arguments.getApplicationUsage()->setCommandLineUsage(arguments.getApplicationName()+" [options] filename ...");
+    arguments.getApplicationUsage()->addCommandLineOption("--image <filename>","Load an image and render it on a quad");
+    arguments.getApplicationUsage()->addCommandLineOption("--dem <filename>","Load an image/DEM and render it on a HeightField");
+    arguments.getApplicationUsage()->addCommandLineOption("--login <url> <username> <password>","Provide authentication information for http file access.");
+    arguments.getApplicationUsage()->addCommandLineOption("-p <filename>","Play specified camera path animation file, previously saved with 'z' key.");
+    arguments.getApplicationUsage()->addCommandLineOption("--speed <factor>","Speed factor for animation playing (1 == normal speed).");
+    arguments.getApplicationUsage()->addCommandLineOption("--device <device-name>","add named device to the viewer");
+
+    /*************************************************SARAB***********************************************/
+
+    osgViewer::Viewer viewer(arguments);
     mule m;
     horse h;
     cout << "\nMain is running.";
